@@ -38,6 +38,6 @@ def is_substr(find, data): # 예제처럼 'A', 'AB', ... 'ABCDEF', 'B', 'BC', ..
 
 # main
 
-link = "/content/drive/MyDrive/workspace/sample.txt"  # 파일의 경로
+link = "/content/drive/MyDrive/workspace/finding shared motif.txt"  # 파일의 경로
 seq = clear_rosalind(link)
 print(long_substr(seq))
